@@ -33,4 +33,18 @@ void main(){
   printf("nilai dari *pointer_umur = %d\n", ++*pointer_umur);
   printf("referensi alamat memori *pointer_umur = %d\n", pointer_umur);
   
+  
+  /*Apa bedanya alamat memori pointer dengan alamat referensi?
+
+Alamat memori pointer adalah alamat memori yang digunakan untuk menyimpan pointer. Sedangkan alamat referensi adalah alamat yang akan menjadi referensi dari pointer.
+
+Ingat:
+
+“Pointer akan bisa mengakses isi data pada alamat referensi yang diberikannya”
+
+Lah! bukannya nanti akan tambah boros memori.
+
+Jika kita bisa menggunakan variabel biasa, ngapain pakai pointer?
+
+Penggunaan pointer sebenarnya opsional, kamu boleh pakai.. boleh juga tidak.*/
 }
