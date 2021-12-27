@@ -8,4 +8,5 @@ int main(){
 	printf("isi konstanta JENIS KELAMIN %c /n", JENIS_KELAMIN);
 
 	return 0;
+	//yang membedakan constanta dan define adalah ada tidak nya menulis tipe data dari suatu variabel
 }
