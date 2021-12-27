@@ -42,6 +42,7 @@ int main(){
 		total_koin=satuan[i]*jumlah_koin[i];
 	}
 	total_semua=total_kertas+total_koin;
-	printf("jumlah uang %f",total_semua);
+	//printf("jumlah uang %f",total_semua);//sangat fatal, menyebabkan tidak menghasilkan output apa-apa
+	printf("jumlah uang %i",total_semua);
 }
 
