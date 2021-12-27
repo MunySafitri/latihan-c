@@ -8,6 +8,7 @@ int main(){
 	nilai[2]=76;
 	nilai[3]=31;
 	nilai[4]=57;
+	
 	/*mencetak isi array
 	printf("Nilai ke-1: %d\n", nilai[0]);
 	printf("Nilai ke-2: %d\n", nilai[1]);
@@ -15,16 +16,23 @@ int main(){
 	printf("Nilai ke-4: %d\n", nilai[3]);
 	printf("Nilai ke-5: %d\n", nilai[4]);
 	*/
+	
 	/*dapat menggunakan loop for
 	for(int i=0;i<5;i++){
 		printf("Nilai ke-1: %d\n", nilai[i]);
 	}*/
-	//int size=sizeof(*nilai);
-		int length=sizeof(nilai)/sizeof(*nilai);	
-		for(int i=0;i<length;i++){
-			printf ("Nilai ke- %d :", i);
-			printf("%d \n",nilai[i]);
+	
+	//int size = sizeof(*nilai); //sizeof berguna untuk melihat panjangnya string(*) didalam kumpulan char
+	//int size = sizeof(nilai);  //jumlah ukuran byte int dikali dengan panjang kata/array
+	//printf("%d",size);
+	
+	int length=sizeof(nilai)/sizeof(*nilai);	
+	for(int i=0;i<length;i++){
+		printf ("Nilai ke- %d :", i);
+		printf("%d \n",nilai[i]);
 	}
-	//printf("%s",size);
+	
 	return 0;
 }
+
+
