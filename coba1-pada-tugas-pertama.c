@@ -46,3 +46,4 @@ int main(){
 	printf("jumlah uang %i",total_semua);
 }
 
+//gils demi apa, salah maksud soal wkwkwk
