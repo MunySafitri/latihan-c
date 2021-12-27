@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int main(){
+int main(){ //biasa ny int main(void)
 	int a, b, c;
 	printf("Inputkan nilai a: ");
 	scanf("%i", &a);//& artinya memegang nilai untuk di simpan ke varibel
