@@ -33,6 +33,9 @@ void main(){
   printf("nilai dari *pointer_umur = %d\n", ++*pointer_umur);
   printf("referensi alamat memori *pointer_umur = %d\n", pointer_umur);
   
+  printf("nilai *p_tinggi = %f\n", (*p_tinggi)++);
+  printf("nilai *p_tinggi = %f\n", (*p_tinggi));// akan merubah nilai dari alamat yang dirujuk oleh pointer tersebut
+  printf("nilai tinggi = %f\n", tinggi);
   
   /*Apa bedanya alamat memori pointer dengan alamat referensi?
 
