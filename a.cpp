@@ -9,6 +9,6 @@ int main(){
 	scanf("%i",&b);
 
 	c=a+b;
-	printf("Hasil a+b: %i", c);
+	printf("Hasil a+b: %i", &c);
 	//ingat tak ada nilai return pada type void
 }
