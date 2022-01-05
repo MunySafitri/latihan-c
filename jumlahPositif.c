@@ -4,11 +4,12 @@ int main(void){
  	int i, total=0, number=0;
  	printf("masukkan number: ");
  	scanf("%d",&number);
- 	for (i=0;total=0;number==1) {
+ 	for (i=0;i<=number;i+=1) {
  		if(number < 0) {
- 			continue;
+ 			break;
  		}		
- 			total += number;
+ 			total += i;
+ 			printf("%d",total);
  	}
 	printf("Penjumlahan bilangan positif = %d\n", total);
  	return EXIT_SUCCESS;
