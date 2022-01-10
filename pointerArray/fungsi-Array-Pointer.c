@@ -1,8 +1,6 @@
+#include<stdio.h>
+
 double *aritmatik(int *data, int panjang) ;
-
-
- 
- #include<stdio.h>
 
  int main( int argc, char *argv[])
  {
